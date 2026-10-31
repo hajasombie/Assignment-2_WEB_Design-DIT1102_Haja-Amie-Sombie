@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accommodation | Student Accommodation Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div class="wrap nav"><a class="logo" href="index.html">SAW</a>
+            <nav aria-label="Main navigation"><a href="index.html" class="">Home</a><a href="about.html" class="">About
+                    Us</a><a href="accommodation.html" class="active">Accommodation</a><a href="facilities.html"
+                    class="">Facilities</a><a href="tips.html" class="">Tips</a><a href="contact.html"
+                    class="">Contact</a></nav>
+        </div>
+    </header>
+    <main class="wrap">
+        <div class="accom-layout">
+            <aside class="filters">
+                <h3>Filters</h3>
+                <form action="accommodation.html" method="get">
+                    <h4>Search / Room Type</h4><label><input type="radio" name="type" value="all" checked>
+                        All</label><label><input type="radio" name="type" value="single"> Single</label><label><input
+                            type="radio" name="type" value="shared"> Shared</label><label><input type="radio"
+                            name="type" value="apartment"> Apartment</label>
+                    <h4>Locations</h4><label><input type="checkbox" name="location" value="near-campus"> Near
+                        Campus</label>
+                    <h4>Features / Amenities</h4><label><input type="checkbox" name="feature" value="single"> Single
+                        Bed</label><label><input type="checkbox" name="feature" value="shared"> Shared
+                        Bathroom</label><label><input type="checkbox" name="feature" value="wifi"> Internet /
+                        Wi-Fi</label>
+                    <p><button class="black-btn" type="submit">All Locations ▾</button></p>
+                </form>
+                <p class="note">These controls illustrate the wireframe. Live filtering requires server processing.</p>
+            </aside>
+            <section class="listing-col">
+                <h2 class="center">Accommodation</h2>
+                <article id="single" class="listing">
+                    <div>
+                        <h3>Single Rooms</h3>
+                        <div class="placeholder listing-img" role="img" aria-label="Image placeholder"></div>
+                    </div>
+                    <div class="listing-text">
+                        <p><strong>All Facilities</strong></p>
+                        <p>High-Speed Internet access</p>
+                        <p>Water supply included</p>
+                        <p>Quiet study area</p>
+                        <div class="listing-action"><span>Price: Le 1,000</span><a href="contact.html#enquiry"
+                                class="black-btn">BOOK ENQUIRY</a></div>
+                    </div>
+                </article>
+                <article id="shared" class="listing">
+                    <div>
+                        <h3>Shared Rooms</h3>
+                        <div class="placeholder listing-img" role="img" aria-label="Image placeholder"></div>
+                    </div>
+                    <div class="listing-text">
+                        <p><strong>All Facilities</strong></p>
+                        <p>Shared double-bed option</p>
+                        <p>Shared kitchen & bath</p>
+                        <p>Free Wi-Fi & study desk</p>
+                        <div class="listing-action"><span>Price: Le 500</span><a href="contact.html#enquiry"
+                                class="black-btn">BOOK ENQUIRY</a></div>
+                    </div>
+                </article>
+                <article id="apartment" class="listing">
+                    <div>
+                        <h3>Self-Contained Apartments</h3>
+                        <div class="placeholder listing-img" role="img" aria-label="Image placeholder"></div>
+                    </div>
+                    <div class="listing-text">
+                        <p><strong>All Facilities</strong></p>
+                        <p>Personal private kitchen</p>
+                        <p>En-suite bathroom</p>
+                        <p>24/7 security & solar backup</p>
+                        <div class="listing-action"><span>Price: Le 2,500</span><a href="contact.html#enquiry"
+                                class="black-btn">BOOK ENQUIRY</a></div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrap footer-grid">
+            <section>
+                <h3>Quick Links</h3><a href="index.html">Home</a><a href="about.html">About Us</a><a
+                    href="accommodation.html">Accommodation</a><a href="facilities.html">Facilities &amp; Services</a><a
+                    href="contact.html">Contact</a>
+            </section>
+            <section>
+                <h3>About</h3><a href="about.html">About Us</a><a href="accommodation.html">Destinations</a><a
+                    href="facilities.html">Facilities</a><a href="contact.html">Location</a><a href="tips.html">Tips</a>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <p>☎ +232 76 187 473</p>
+                <p>✉ <a href="mailto:hello@example.com">hello@example.com</a></p>
+                <p>⌖ Freetown, Sierra Leone</p>
+            </section>
+            <section>
+                <h3>Social Link</h3>
+                <div class="social">● ◎ ◉ ◌ ▶</div>
+            </section>
+        </div>
+        <p class="copyright">© 2026 Student Accommodation Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
